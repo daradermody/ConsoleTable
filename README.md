@@ -29,8 +29,8 @@ You can configure the table using the following parameters in the ConsoleTable c
 
 | Parameter         | Description   | Example  |
 | ----------------- |:--------------|:--------:|
-| row_format        | The format of the table row. Cell values are populated in "{}"s | <span style="white-space: nowrap"><code>"&#124;{}&#124;{}&#124;"</code></span> |
-| column_widths     | The width of the columns. If a tuple is provided instead of an int, each integer shall be used as the width of each column.  If the length of this tuple is less than the number of "{}"s in the row_format string, the last number is used for the rest of the columns | <nobr>`(10, 5)`</nobr> |
+| row_format        | The format of the table row. Cell values are populated in "{}"s | "&#124;{}&#124;{}&#124;"</code></span> |
+| column_widths     | The width of the columns. If a tuple is provided, each int shall be used as the width.  If the length is less than the number of cells, the last number is used for the rest of the columns | <nobr>`(10, 5)`</nobr> |
 | subcell_delimiter | The character(s) to separate subcells with | `":"` |
 
 # How to Contribute

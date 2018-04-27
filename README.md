@@ -29,7 +29,7 @@ You can configure the table using the following parameters in the ConsoleTable c
 
 | Parameter         | Description   | Example  |
 | ----------------- |:--------------|:--------:|
-| row_format        | The format of the table row. Cell values are populated in "{}"s | <nobr>`"|{}|{}|"`</nobr> |
+| row_format        | The format of the table row. Cell values are populated in "{}"s | <nobr><code>"&#124;{}&#124;{}&#124;"</code></nobr> |
 | column_widths     | The width of the columns. If a tuple is provided instead of an int, each integer shall be used as the width of each column.  If the length of this tuple is less than the number of "{}"s in the row_format string, the last number is used for the rest of the columns | <nobr>`(10, 5)`</nobr> |
 | subcell_delimiter | The character(s) to separate subcells with | `":"` |
 

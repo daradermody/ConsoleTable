@@ -27,7 +27,7 @@ As shown above, if one of the cell values provided is a tuple, the cell shall be
 ## Table Configuration
 You can configure the table using the following parameters in the ConsoleTable constructor:
 
-| Parameter         | Description   | &nbsp;&nbsp;Example&nbsp;&nbsp; |
+| Parameter         | Description   | Example Value |
 | ----------------- |:--------------|:--------:|
 | row_format        | The format of the table row. Cell values are populated in "{}"s | <code>"&#124;{}&#124;{}&#124;"</code> |
 | column_widths     | The width of the columns. If a tuple is provided, each int shall be used as the width.  If the length is less than the number of cells, the last number is used for the rest of the columns | <nobr>`(10, 5)`</nobr> |
